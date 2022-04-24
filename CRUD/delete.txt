@@ -1,0 +1,7 @@
+{
+    "token": "90938647|-31949286240475744|90946164",
+    "cmd": "REMOVE",
+    "dbName": "Employeetable",
+    "rel": "index",
+    "record": 1
+}

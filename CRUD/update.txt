@@ -1,0 +1,13 @@
+{
+    "token": "90938647|-31949286240475744|90946164",
+    "cmd": "UPDATE",
+    "dbName": "Employeetable",
+    "rel": "index",
+    "jsonStr": {
+       "1":{
+        "name": "abc",
+        "mobile_number": 7098162348
+
+      },
+   }
+}
