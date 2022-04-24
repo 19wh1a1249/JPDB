@@ -1,3 +1,14 @@
+// LOGIN FORM 
+
+// In this I have used HTML,CSS,JAVASCRIPT,AJAX,JQUERY,TALEND API TESTER and JSONPowerDB.
+
+// JsonPowerDB is a Database Server with Developer friendly REST API services.
+// It's a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database.
+// Easy and fast to develop database applications without using any server side programming / scripting or without installing any kind of database.
+
+
+
+
 <!DOCTYPE html>
 <!--
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -42,6 +53,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             </form>
         </div>
         <script>
+        // used for validating the form 
             function validateAndGetFormData() {
                 var empIdVar = $("#empId").val();
                 if (empIdVar === "") {
@@ -68,7 +80,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                 };
                 return JSON.stringify(jsonStrObj);
             }
-
+    // used for reseting the form 
             function resetForm() {
                 $("#empId").val("");
                 $("#empName").val("");
